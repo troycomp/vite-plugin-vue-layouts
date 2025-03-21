@@ -9,7 +9,9 @@
     "moduleResolution": "Node",
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "noUnusedParameters": true
+    "noUnusedParameters": true,
+    "declaration": true,
+    "declarationDir": "./dist",
   },
   "exclude": [
     "**/dist",
